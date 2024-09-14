@@ -1,0 +1,8 @@
+[package]
+name = "hello-macro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hello_macro_lib = { path = "../hello_macro_lib" }
+hello_macro_derive = { path = "../hello_macro_derive" }
